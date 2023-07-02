@@ -9,13 +9,11 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.sql.SQLException;
 
-/**
- * @author hieppm
- */
+
 public class KhaiBaoPanel extends javax.swing.JPanel {
     private JFrame parentFrame;
     private KhaiBaoMangerPanelController controller = null;
-    // Variables declaration - do not modify//GEN-BEGIN:variables
+    // Variables declaration - do not modify                     
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JPanel tablePanel;
@@ -164,10 +162,10 @@ public class KhaiBaoPanel extends javax.swing.JPanel {
 
     }
 
-    private void jtfSearchActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jtfSearchActionPerformed
+    private void jtfSearchActionPerformed(java.awt.event.ActionEvent evt) {                                          
         // TODO add your handling code here:
     }
 
 
-    // End of variables declaration//GEN-END:variables
+    // End of variables declaration                   
 }

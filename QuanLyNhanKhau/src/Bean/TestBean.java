@@ -6,10 +6,7 @@
 package Bean;
 import models.Test;
 import models.NhanKhauModel;
-/**
- *
- * @author ducnm
- */
+
 public class TestBean {
     private Test test;
     private NhanKhauModel nhanKhauModel;

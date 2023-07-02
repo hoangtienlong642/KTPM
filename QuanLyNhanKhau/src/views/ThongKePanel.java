@@ -3,10 +3,7 @@ package views;
 import controllers.ThongKePanelController;
 import javax.swing.JFrame;
 
-/**
- *
- * @author hieppm
- */
+
 public class ThongKePanel extends javax.swing.JPanel {
     private JFrame parentFrame;
     private ThongKePanelController controller;

@@ -6,10 +6,7 @@
 package models;
 
 import java.util.Date;
-/**
- *
- * @author hieppm
- */
+
 public class Test {
     private int id;
     private int id_nhankhau;

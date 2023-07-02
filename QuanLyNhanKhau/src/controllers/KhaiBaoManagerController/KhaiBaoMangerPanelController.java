@@ -21,9 +21,6 @@ import java.sql.Statement;
 import java.util.EventObject;
 import java.util.List;
 
-/**
- * @author: hieppm
- */
 
 public class KhaiBaoMangerPanelController {
     private final String[] COLUMNS = {"Họ tên", "ID nhân khẩu", "Ngày sinh", "Ngày khai báo", "Biểu hiện", "Vùng dịch"};

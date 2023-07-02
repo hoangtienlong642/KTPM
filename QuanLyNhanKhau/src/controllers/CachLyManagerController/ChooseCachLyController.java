@@ -24,10 +24,7 @@ import models.NhanKhauModel;
 import services.NhanKhauService;
 import utility.ClassTableModel;
 
-/**
- *
- * @author DungLHT
- */
+
 public class ChooseCachLyController {
     private NhanKhauBean nhanKhauBean;
     private JTextField searchJtf;

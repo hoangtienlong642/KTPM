@@ -6,10 +6,7 @@ import javax.swing.UIManager;
 import views.LoginUI;
 import views.MainFrame;
 
-/**
- *
- * @author Hai
- */
+
 public class QuanLyNhanKhau {
 
     public static Calendar calendar = Calendar.getInstance();

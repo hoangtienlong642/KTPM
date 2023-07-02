@@ -16,10 +16,7 @@ import java.awt.event.ActionListener;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 
-/**
- *
- * @author admins
- */
+
 public class ThemMoiTest extends javax.swing.JFrame {
     private NhanKhauBean nguoiTest = new NhanKhauBean();
     private TestManagerPanelController parentController;

@@ -27,10 +27,7 @@ import views.KhaiBaoPanel;
 import views.TestManagePanel;
 
 
-/**
- *
- * @author Hai
- */
+
 public class MainController {
     private JFrame jfrMain;
     private JPanel root;

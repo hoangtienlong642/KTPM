@@ -7,9 +7,7 @@ import services.MysqlConnection;
 import java.sql.*;
 
 
-/**
- * @author hieppm
- */
+
 public class ThemMoiKhaiBaoController {
     public boolean themKhaiBao(KhaiBaoBean khaiBaoBean) throws SQLException, ClassNotFoundException {
         KhaiBao khaiBao = khaiBaoBean.getKhaiBaoModel();

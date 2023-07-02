@@ -82,9 +82,9 @@ public class MainFrame extends javax.swing.JFrame {
 
         jpnContainer.setBackground(new java.awt.Color(255, 255, 255));
 
-        jpnMenu.setBackground(new java.awt.Color(153, 153, 153));
+        jpnMenu.setBackground(new java.awt.Color(126, 144, 154));
 
-        Home.setBackground(new java.awt.Color(0, 160, 50));
+        Home.setBackground(new java.awt.Color(165, 216, 221));
 
         jblTrangChu.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
         jblTrangChu.setForeground(new java.awt.Color(255, 255, 255));
@@ -98,7 +98,7 @@ public class MainFrame extends javax.swing.JFrame {
             .addGroup(HomeLayout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jblTrangChu)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(37, Short.MAX_VALUE))
         );
         HomeLayout.setVerticalGroup(
             HomeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -108,7 +108,9 @@ public class MainFrame extends javax.swing.JFrame {
                 .addGap(21, 21, 21))
         );
 
-        NhanKhauBtn.setBackground(new java.awt.Color(102, 102, 102));
+        NhanKhauBtn.setBackground(new java.awt.Color(126, 144, 154));
+        NhanKhauBtn.setForeground(new java.awt.Color(32, 32, 32));
+        NhanKhauBtn.setToolTipText("");
         NhanKhauBtn.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
         jlbNhanKhau.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
@@ -123,7 +125,7 @@ public class MainFrame extends javax.swing.JFrame {
             .addGroup(NhanKhauBtnLayout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jlbNhanKhau)
-                .addContainerGap(42, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         NhanKhauBtnLayout.setVerticalGroup(
             NhanKhauBtnLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -133,7 +135,7 @@ public class MainFrame extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        HoKhauBtn.setBackground(new java.awt.Color(102, 102, 102));
+        HoKhauBtn.setBackground(new java.awt.Color(126, 144, 154));
 
         jlbHoKhau.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
         jlbHoKhau.setForeground(new java.awt.Color(255, 255, 255));
@@ -157,7 +159,7 @@ public class MainFrame extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        ThongKeBtn.setBackground(new java.awt.Color(102, 102, 102));
+        ThongKeBtn.setBackground(new java.awt.Color(126, 144, 154));
 
         jlbThongKe.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
         jlbThongKe.setForeground(new java.awt.Color(255, 255, 255));
@@ -182,7 +184,7 @@ public class MainFrame extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        KhaiBaoBtn.setBackground(new java.awt.Color(102, 102, 102));
+        KhaiBaoBtn.setBackground(new java.awt.Color(126, 144, 154));
 
         jlbKhaiBao.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
         jlbKhaiBao.setForeground(new java.awt.Color(255, 255, 255));
@@ -204,7 +206,7 @@ public class MainFrame extends javax.swing.JFrame {
             .addComponent(jlbKhaiBao, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
-        TestBtn.setBackground(new java.awt.Color(102, 102, 102));
+        TestBtn.setBackground(new java.awt.Color(126, 144, 154));
 
         jlbTest.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
         jlbTest.setForeground(new java.awt.Color(255, 255, 255));
@@ -229,7 +231,7 @@ public class MainFrame extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        CachLyBtn.setBackground(new java.awt.Color(102, 102, 102));
+        CachLyBtn.setBackground(new java.awt.Color(126, 144, 154));
 
         jlbCachLy.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
         jlbCachLy.setForeground(new java.awt.Color(255, 255, 255));
@@ -285,8 +287,12 @@ public class MainFrame extends javax.swing.JFrame {
                 .addComponent(CachLyBtn, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(ThongKeBtn, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 56, Short.MAX_VALUE))
+                .addGap(0, 0, Short.MAX_VALUE))
         );
+
+        NhanKhauBtn.getAccessibleContext().setAccessibleName("");
+
+        jpnBean.setBackground(new java.awt.Color(241, 241, 241));
 
         javax.swing.GroupLayout jpnBeanLayout = new javax.swing.GroupLayout(jpnBean);
         jpnBean.setLayout(jpnBeanLayout);
@@ -296,7 +302,7 @@ public class MainFrame extends javax.swing.JFrame {
         );
         jpnBeanLayout.setVerticalGroup(
             jpnBeanLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
+            .addGap(0, 514, Short.MAX_VALUE)
         );
 
         javax.swing.GroupLayout jpnContainerLayout = new javax.swing.GroupLayout(jpnContainer);
@@ -311,11 +317,11 @@ public class MainFrame extends javax.swing.JFrame {
         );
         jpnContainerLayout.setVerticalGroup(
             jpnContainerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jpnMenu, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(jpnContainerLayout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jpnBean, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addContainerGap())
+            .addComponent(jpnMenu, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());

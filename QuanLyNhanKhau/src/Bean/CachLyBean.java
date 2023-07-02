@@ -8,10 +8,7 @@ import models.CachLyModel;
 import models.NhanKhauModel;
 import models.Test;
 import models.NhanKhauCachLy;
-/**
- *
- * @author DungLHT
- */
+
 public class CachLyBean {
     private CachLyModel cachLyModel;
     private NhanKhauCachLy nhanKhauCachLy;

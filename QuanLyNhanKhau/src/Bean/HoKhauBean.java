@@ -6,11 +6,7 @@ import models.HoKhauModel;
 import models.NhanKhauModel;
 import models.ThanhVienCuaHoModel;
 
-/**
- *
- * @author Hai
- * ket noi tu nhien gia ho_khau va nhan_khau
- */
+
 
 public class HoKhauBean {
     private HoKhauModel hoKhauModel;

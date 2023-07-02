@@ -8,10 +8,7 @@ import views.NhanKhauManagerFrame.KhaiTuJFrame;
 
 import javax.swing.*;
 
-/**
- *
- * @author Hai
- */
+
 public class NhanKhauManagePanel extends javax.swing.JPanel {
 
     /**

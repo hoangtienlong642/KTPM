@@ -20,9 +20,7 @@ import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.sql.Date;
 
-/**
- * @author hieppm
- */
+
 public class ThemMoiKhaiBao extends javax.swing.JFrame {
     public int stateButton;
     private JFrame parentFrame;

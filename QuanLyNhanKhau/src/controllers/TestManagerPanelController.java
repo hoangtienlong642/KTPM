@@ -26,10 +26,7 @@ import java.util.ArrayList;
 import java.util.EventObject;
 import java.util.List;
 
-/**
- *
- * @author ducnm
- */
+
 public class TestManagerPanelController {
        private JButton deleteBtn;
        private JPanel jpnView;

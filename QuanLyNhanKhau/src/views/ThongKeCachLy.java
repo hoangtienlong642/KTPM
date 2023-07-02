@@ -18,9 +18,7 @@ import java.awt.event.ActionEvent;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * @author hieppm
- */
+
 public class ThongKeCachLy extends javax.swing.JPanel {
     private final String[] COLUMNS = {"Mã cách ly", "ID nhân khẩu", "Thời gian", "Mức độ", "Đã test?"};
     private CachLyService cachLyService;

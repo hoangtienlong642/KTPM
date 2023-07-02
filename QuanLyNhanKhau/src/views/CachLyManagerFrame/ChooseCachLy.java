@@ -14,10 +14,7 @@ import javax.swing.JOptionPane;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 
-/**
- *
- * @author DungLHT
- */
+
 public class ChooseCachLy extends javax.swing.JFrame {
     private NhanKhauBean nhanKhauBean;
     private NhanKhauBean nhanKhauBeanTemp;

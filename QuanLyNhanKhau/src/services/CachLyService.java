@@ -21,10 +21,7 @@ import models.NhanKhauModel;
 import models.Test;
 import views.CachLyPanel;
 
-/**
- *
- * @author DungLHT
- */
+
 public class CachLyService{
 
     public List<CachLyBean> getListCachLyBeans(String hoTen) {

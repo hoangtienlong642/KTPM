@@ -17,10 +17,7 @@ import java.util.ArrayList;
 import java.util.EventObject;
 import java.util.List;
 
-/**
- *
- * @author Hai
- */
+
 public class NhanKhauManagerPanelController {
     
     private JPanel jpnView;

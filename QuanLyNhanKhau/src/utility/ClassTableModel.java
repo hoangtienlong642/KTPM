@@ -9,10 +9,7 @@ import services.ThongKeTestService;
 import javax.swing.table.DefaultTableModel;
 import java.util.List;
 
-/**
- * @author Hai
- * class dinh nghia cac dang table co trong phan mem
- */
+
 public class ClassTableModel {
     // bang cho main frame
     public DefaultTableModel setTableNhanKhau(List<NhanKhauModel> listItem, String[] listColumn) {

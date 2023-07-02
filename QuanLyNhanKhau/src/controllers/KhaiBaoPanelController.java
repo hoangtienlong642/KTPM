@@ -6,10 +6,6 @@ import javax.swing.JTextField;
 
 
 
-/**
- *
- * @author Dung
- */
 public class KhaiBaoPanelController {
     private JButton JBtn;
     private JTextField JTextField1;

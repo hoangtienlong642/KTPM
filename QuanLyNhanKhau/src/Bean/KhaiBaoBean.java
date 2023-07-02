@@ -12,9 +12,7 @@ import models.KhaiBao;
 import models.NhanKhauModel;
 import models.TieuSuModel;
 
-/**
- * @author hieppm
- */
+
 public class KhaiBaoBean {
     private NhanKhauModel nhanKhauModel;
     private KhaiBao khaiBaoModel;

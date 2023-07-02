@@ -16,10 +16,7 @@ import views.TestManagerFrame.ChooseNhanKhau;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 
-/**
- *
- * @author DungLHT
- */
+
 public class ThemMoiCachLyJFrame extends javax.swing.JFrame {
     private NhanKhauBean nguoiCachLy = new NhanKhauBean();
     private CachLyManagerPanelController parentController;

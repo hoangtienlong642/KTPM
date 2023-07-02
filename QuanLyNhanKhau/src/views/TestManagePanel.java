@@ -10,10 +10,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.sql.SQLException;
 
-/**
- *
- * @author Ducnm
- */
+
 public class TestManagePanel extends javax.swing.JPanel {
     private JFrame parentJFrame;
     private TestManagerPanelController controller = null;

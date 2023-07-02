@@ -9,10 +9,7 @@ import services.CachLyService;
 import services.KhaiBaoService;
 import views.CachLyManagerFrame.ThemMoiCachLyJFrame;
 
-/**
- *
- * @author DungLHT
- */
+
 public class CachLyPanel extends javax.swing.JPanel {
     private JFrame parentJFrame;
     private CachLyManagerPanelController controller = null;

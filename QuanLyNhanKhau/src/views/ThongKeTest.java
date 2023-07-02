@@ -16,9 +16,7 @@ import java.awt.*;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * @author hieppm
- */
+
 public class ThongKeTest extends javax.swing.JPanel {
 
     private final String[] COLUMNS = {"Mã test", "ID nhân khẩu", "Người test","Thời điểm test", "Hình thức test", "Kết quả"};

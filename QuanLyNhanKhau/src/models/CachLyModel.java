@@ -7,10 +7,6 @@ package models;
 import java.util.Date;
 
 
-/**
- *
- * @author hieppm
- */
 public class CachLyModel {
     private int id;
     private Date tgian_bat_dau;

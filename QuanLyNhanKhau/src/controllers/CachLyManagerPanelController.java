@@ -32,10 +32,7 @@ import java.util.ArrayList;
 import java.util.EventObject;
 import java.util.List;
 
-/**
- *
- * @author DungLHT
- */
+
 public class CachLyManagerPanelController {
     private JPanel jpnView;
     private JTextField jtfSearch;

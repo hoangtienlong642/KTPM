@@ -5,10 +5,7 @@
  */
 package models;
 
-/**
- *
- * @author hieppm
- */
+
 public class NhanKhauCachLy {
     private int id;
     private int cachly_id;
