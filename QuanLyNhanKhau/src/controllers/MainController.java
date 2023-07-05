@@ -98,11 +98,11 @@ public class MainController {
     public void setDefaultColor() {
         this.listDanhMuc.forEach((item) -> {
             if (item.getKind().equals("TrangChu")) {
-                item.getJlb().setBackground(new Color(0, 160, 50));
-                item.getJpn().setBackground(new Color(0, 160, 50));
+                item.getJlb().setBackground(new Color(22, 64, 71));
+                item.getJpn().setBackground(new Color(22, 64, 71));
             } else {
-                item.getJlb().setBackground(new Color(102,102,102));
-                item.getJpn().setBackground(new Color(102,102,102));
+                item.getJlb().setBackground(new Color(22, 64, 71));
+                item.getJpn().setBackground(new Color(22, 64, 71));
             }
         });
     }
@@ -198,12 +198,12 @@ public class MainController {
         public void mouseExited(MouseEvent e) {
             if (!kind.equalsIgnoreCase(kindSelected)) {
                 if (kind.equals("TrangChu")) {
-                    jlbItem.setBackground(new Color(0, 160, 50));
-                    jpnItem.setBackground(new Color(0, 160, 50));
+                    jlbItem.setBackground(new Color(0,0,0));
+                    jpnItem.setBackground(new Color(0,0,0));
                 } else 
                 {
-                    jlbItem.setBackground(new Color(102,102,102));
-                    jpnItem.setBackground(new Color(102,102,102));
+                    jlbItem.setBackground(new Color(22,64,71));
+                    jpnItem.setBackground(new Color(22,64,71));
                 }
             }
         }
